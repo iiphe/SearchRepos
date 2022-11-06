@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+}
+
+.search-button {
+  padding: auto;
+  margin-left: 10px;
+}
+.search-bar {
+  margin-left: 10px;
+}
+.repos {
+  justify-content: center;
+  padding: 20px;
+  display: grid;
+  margin-bottom: 10%;
+}
+.repo-container {
+  padding: 20px;
+}
+.buttons {
+  margin: auto;
+}
+.next {
+  margin-left: 40px;
+}
+.logo {
+  width: 40px;
+  display: flex;
+  margin-left: 10px;
+}
+h1 {
+  padding: 20px;
+  margin-left: 0px;
+  display: flex;
+}
+.h1-home {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+}
+.paragraph {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+nav-links ul {
+  margin-top: 10px;
+  color: black;
+  font-size: 30px;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+ul {
+  font-size: 20px;
+}
+h3 {
+  margin-left: 50%;
+  margin-top: 5%;
+}
